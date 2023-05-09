@@ -43,13 +43,13 @@
   margin: 0;
   line-height: 1.2;
   font-size: 5rem;
-  font-family: "Wagner", serif;
+  font-family: "Custom", sans-serif;
 }
 
 .title,
 .description {
   text-align: center;
-  font-family: "Wagner", serif;
+  font-family: "Custom", sans-serif;
 }
 
 .description {
