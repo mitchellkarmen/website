@@ -17,11 +17,11 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Research Assisant at the Supernova Cosmology Project at Lawrence Berkeley National Laboratory
+          PhD Student at Johns Hopkins University
         </p>
 
         <div className={styles.grid}>
-          <a href="https://github.com" className={styles.card}>
+          <a href="https://github.com/mitchellkarmen" className={styles.card}>
             <Image
               src="/GitHub-Mark.png"
               alt="Link to my GitHub"
@@ -30,7 +30,7 @@ export default function Home() {
               />
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://ui.adsabs.harvard.edu/search/q=author%3AKarmen%2C%20Mitchell" className={styles.card}>
                         <Image
               src="/ads_logo.svg"
               alt="Link to my papers on ADS"
@@ -44,7 +44,7 @@ export default function Home() {
             className={styles.card}>
             <Image
               src="/cv.png"
-              alt="Link to my GitHub"
+              alt="My CV"
               width={80}
               height={80}
               />
