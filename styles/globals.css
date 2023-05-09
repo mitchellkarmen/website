@@ -17,6 +17,6 @@ a {
 }
 
 @font-face {
-  font-family: 'Nugia';
-  src: url('/fonts/NugiaVintage.ttf') format('truetype');
+  font-family: 'Wagner';
+  src: url('/fonts/Wagner.otf') format('truetype');
 }

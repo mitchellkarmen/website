@@ -2,6 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+const openPdf = () => {
+    window.open("https://raw.githubusercontent.com/user/repo/master/file.pdf");
+  };
+
 export default function Home() {
   return (
     <div className={styles.container}>
