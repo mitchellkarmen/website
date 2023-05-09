@@ -21,7 +21,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          PhD Student at Johns Hopkins University
+          Astrophysics PhD Student at Johns Hopkins University
         </p>
 
         <div className={styles.grid}>
@@ -44,7 +44,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://raw.githubusercontent.com/mitchellkarmen/CV/master-pdf/main.pdf"
             className={styles.card}>
             <Image
               src="/cv.png"
@@ -55,6 +55,11 @@ export default function Home() {
           </a>
         </div>
       </main>
+
+    <footer>
+      <p>Contact me:</p>
+      <a href="mailto:mkarmen1@jhu.edu">mkarmen1@jhu.edu</a>
+    </footer>
       
     </div>
   )
