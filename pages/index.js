@@ -29,8 +29,8 @@ export default function Home() {
             <Image
               src="/GitHub-Mark.png"
               alt="Link to my GitHub"
-              width={80}
-              height={80}
+              width={35}
+              height={35}
               />
           </a>
 
@@ -38,8 +38,8 @@ export default function Home() {
                         <Image
               src="/ads_logo.svg"
               alt="Link to my papers on ADS"
-              width={80}
-              height={80}
+              width={35}
+              height={35}
               />
           </a>
 
@@ -49,8 +49,8 @@ export default function Home() {
             <Image
               src="/cv.png"
               alt="My CV"
-              width={80}
-              height={80}
+              width={35}
+              height={35}
               />
           </a>
         </div>
@@ -58,7 +58,7 @@ export default function Home() {
 
     <footer>
       <p>Contact me:</p>
-      <a href="mailto:mkarmen1@jhu.edu">mkarmen1@jhu.edu</a>
+      <a href="mailto:mkarmen1@jhu.edu">mkarmen1[at]jhu[dot]edu</a>
     </footer>
       
     </div>
