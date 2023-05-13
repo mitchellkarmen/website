@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Sidebar from '../components/sidebar.tsx';
+
 
 const openPdf = () => {
     window.open("https://raw.githubusercontent.com/user/repo/master/file.pdf");
@@ -13,6 +15,9 @@ export default function Home() {
         <title>Mitchell Karmen</title>
         <meta name="description" content="Mitchell Karmen's website" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet"/>
       </Head>
 
       <main className={styles.main}>
@@ -23,7 +28,6 @@ export default function Home() {
         <p className={styles.description}>
           Astrophysics PhD Student at Johns Hopkins University
         </p>
-
         <div className={styles.grid}>
           <a href="https://github.com/mitchellkarmen" className={styles.card}>
             <Image

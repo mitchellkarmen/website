@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "IBMPlexSans", normal;
+  font-family: 'IBM Plex Sans', sans-serif;
   background-color: #fcfcfc;
 
 }
@@ -10,26 +10,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  font-family: 'IBM Plex Sans', sans-serif;
+
 }
 
 * {
   box-sizing: border-box;
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  src: url('/fonts/IBMPlexSans-Bold.ttf');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  src: url('/fonts/IBMPlexSans-Medium.ttf');
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  src: url('/fonts/IBMPlexSans-Thin.ttf');
-  font-weight: thin;
 }

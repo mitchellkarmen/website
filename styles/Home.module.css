@@ -10,17 +10,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "IBMPlexSans", normal;
+  font-family: 'IBM Plex Sans', bold;
 }
 
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-  font-family: "IBMPlexSans", bold;
+  font-family: 'IBM Plex Sans';
 }
 
 .footer a {
@@ -28,13 +28,15 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  font-family: "IBMPlexSans", bold;
+  font-family: 'IBM Plex Sans', light;
+
 
 }
 
 .title a {
   color: #0070f3;
   text-decoration: none;
+  font-family: 'IBM Plex Sans', bold;
 }
 
 .title a:hover,
@@ -47,19 +49,18 @@
   margin: 0;
   line-height: 1.2;
   font-size: 5rem;
-  font-family: "IBMPlexSans", bold;
 }
 
 .title,
 .description {
   text-align: center;
-  font-family: "IBMPlexSans", bold;
 }
 
 .description {
   margin: 3rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  font-family: 'IBM Plex Sans', light;
 }
 
 .code {
@@ -67,7 +68,6 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: "IBMPlexSans", monospace;
 }
 
 .grid {
@@ -93,7 +93,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-/*  background-color: #bdcdd6;*/
+  background-color: #fcfcfc;
   border-color: #93bfcf;
 }
 
