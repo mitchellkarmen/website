@@ -27,6 +27,7 @@ export default function Home() {
 
         <p className={styles.description}>
           Astrophysics PhD Student at Johns Hopkins University
+	  NSF Graduate Research Fellow
         </p>
         <div className={styles.grid}>
           <a href="https://github.com/mitchellkarmen" className={styles.card}>
